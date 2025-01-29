@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav className="bg-[#212930] dark:bg-[#212930] fixed w-full z-20 top-0 start-0">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between p-4">
-        <a href="localhost:3000" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="index.html" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="/img/logo.png" className="h-10" alt="logo"/>
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             Alpha Squadron
@@ -46,7 +46,7 @@ export default function Navbar() {
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-gray-700 ml-6">
             <li>
               <a
-                href="localhost:3000"
+                href="#about"
                 className="block py-2 px-3 text-gray-300 hover:text-gray-500 rounded md:bg-transparent md:text-gray-300 md:p-0 md:dark:text-gray-300"
                 aria-current="page"
               >
@@ -55,7 +55,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="localhost:3000"
+                href="#achievements"
                 className="block py-2 px-3 text-gray-300 hover:text-gray-500 rounded md:hover:bg-transparent md:hover:text-gray-500 md:p-0 md:dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-gray-500 md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Achievements
@@ -63,7 +63,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="localhost:3000"
+                href="#team"
                 className="block py-2 px-3 text-gray-300 hover:text-gray-500 rounded md:hover:bg-transparent md:hover:text-gray-500 md:p-0 md:dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-gray-500 md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Team
