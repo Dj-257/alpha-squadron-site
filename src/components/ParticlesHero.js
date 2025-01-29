@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import * as THREE from 'three';
-import BIRDS from 'vanta/dist/vanta.birds.min';
+import GLOBE from 'vanta/dist/vanta.globe.min';
 
 const ParticlesHero = function() {
   const [vantaEffect, setVantaEffect] = useState(null);
@@ -8,7 +8,7 @@ const ParticlesHero = function() {
 
   useEffect(() => {
     if (!vantaEffect) {
-      const effect = BIRDS({
+      const effect = GLOBE({
         el: vantaRef.current,
         mouseControls: true,
         touchControls: true,
@@ -20,12 +20,6 @@ const ParticlesHero = function() {
         backgroundColor: 0x212930,
         color1: 0xca212d,
         color2: 0xfaf4c5,
-        colorMode: "lerpGradient",
-        wingSpan: 20.00,
-        speedLimit: 6.00,
-        separation: 82.00,
-        alignment: 56.00,
-        cohesion: 61.00,
         THREE: THREE
       });
       setVantaEffect(effect);
