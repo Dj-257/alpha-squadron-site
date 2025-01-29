@@ -16,6 +16,7 @@ export default function Team() {
         <Card name='Sarthak Kolekar' image='sarthak' insta='sarthakrajkolekar' linkedin='sarthakrajkolekar' rno='b22cs1065'/>
         <Card name='Nayan Kute' image='nayan' insta='nayankute21' linkedin='nayan-kute-a1b998284' rno='b23cs1041'/>
         <Card name='Aditya Jha' image='aditya' insta='adityaj_24' linkedin='aditya-jha-14b972287' rno='b23ee1082'/>
+        <Card name='Tejas Joshi' image='tejas' insta='tejas._.joshi' linkedin='tejas-joshi-802b4028a' rno='b23me1076'/>
     </div>
 
     <div className='font-roboto m-4 text-2xl font-bold text-center'>SOLDIERS</div>
