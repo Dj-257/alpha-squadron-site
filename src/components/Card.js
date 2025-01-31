@@ -9,7 +9,7 @@ export default function Card(props) {
   return (
     <div className='flex flex-col items-center justify-center'>
         <div>
-            <img className='rounded-full h-60 w-60 object-cover' src={`/img/${props.image}.jpg`}></img>
+            <img className='rounded-full h-60 w-60 object-cover transition-transform transform hover:scale-105' src={`/img/${props.image}.jpg`} alt='profile-pic'></img>
         </div>
         <div className='font-roboto m-4 text-xl'>
             {props.name}

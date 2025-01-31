@@ -35,7 +35,7 @@ export default function Achievements() {
 
         <div className='flex flex-col justify-center items-center p-4 rounded-lg shadow-md cursor-pointer transition-all bg-slate-600'>
             <div>
-                <img src='/img/dashak.png' alt='Ajat Prabha' className='rounded-full object-cover w-full h-64 object-center'/>
+                <img src='/img/dashak.png' alt='dashak' className='rounded-full object-cover w-full h-64 object-center'/>
             </div>
             <div className='text-2xl m-2 underline font-bold text-center text-white font-mono'>
                 Dashak 3.0
@@ -53,7 +53,49 @@ export default function Achievements() {
             </div>
         </div>
 
+        <div className='flex flex-col justify-center items-center p-4 rounded-lg shadow-md cursor-pointer transition-all bg-slate-600'>
+            <div>
+                <img src='/img/homecoming.png' alt='homecoming' className='rounded-full object-cover w-full h-64'/>
+            </div>
+            <div className='text-2xl m-2 underline font-bold text-center text-white font-mono'>
+                Homecoming
+            </div>
+            <div className='font-open_sans text-justify'>
+
+                    Homecoming is the official name for Convocation of Batch of 2024. The event was conducted on a grand scale with Vice President of India as the Chief Guest. A new initiative, 'Roommate Rewind' was introduced where the seniors were given an opportunity to share their experiences and memories with their juniors as they stayed in their rooms during the event. Our team handled all verticals smoothly and efficiently, and in the it campus felt like a festival was ongoing. Everything ranging from formal to informal eevnts was a grand success and was appreciated by all the attendees.
+            </div>
+            <div>
+                <button className='instagram p-2 rounded-lg flex justify-center items-center font-open_sans font-bold m-2' onClick={()=>window.open('https://www.instagram.com/p/DBOdYj9SFfs/}','_blank')}>
+                    Instagram Post
+                    <img src='/img/insta.png' alt='instagram' className='w-6 h-6 ml-2'/>
+                </button>
+                
+            </div>
+        </div>
+
+        <div className='flex flex-col justify-center items-center p-4 rounded-lg shadow-md cursor-pointer transition-all bg-slate-600'>
+            <div>
+                <img src='/img/legacy.png' alt='legacy' className='rounded-full object-cover w-full h-64'/>
+            </div>
+            <div className='text-2xl m-2 underline font-bold text-center text-white font-mono'>
+                Legacy Initiative
+            </div>
+            <div className='font-open_sans text-justify'>
+
+                    Legacy initiative was started this year itself at Convocation. The idea was to raise funding from our graduating batch to help the upcoming batches, particularly for the development of more co-working spaces inside the campus. The initiative was a grand success and we were able to raise a substantial amount of money. The initiative was appreciated by the faculty and the students alike and we hope to continue this tradition in the coming years.
+            </div>
+            <div>
+                <button className='instagram p-2 rounded-lg flex justify-center items-center font-open_sans font-bold m-2' onClick={()=>window.open('https://www.instagram.com/p/DBgptiVPJdj/}','_blank')}>
+                    Instagram Post
+                    <img src='/img/insta.png' alt='instagram' className='w-6 h-6 ml-2'/>
+                </button>
+                
+            </div>
+        </div>
+
     </div>
+
+    
     </>
 
 

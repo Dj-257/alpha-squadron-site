@@ -8,6 +8,14 @@
   animation: shine 5s linear infinite;
 }
 
+.tagline-sub {
+  font-family: monospace;
+  letter-spacing: 7px!important;
+  background: hsl(0, 0%, 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @keyframes shine {
   0% {
     background-position: -600px 0;
