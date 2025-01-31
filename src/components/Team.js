@@ -32,7 +32,7 @@ export default function Team() {
         <Card name='Brijesh Thakkar' image='brijesh' insta='brijesh_thakkar__' linkedin='brijesh-thakkar-22912b290' rno='b24me1018'/>
         <Card name='Nirni Naidu' image='nirni' insta='proff__coder___' linkedin='nirni-naidu-696ba2202' rno='b24ee1075'/>
         <Card name='Alankrita Singh' image='alankrita' insta='alankritaa.singh_' linkedin='' rno='b24mt1004'/>
-        <Card name='Vidhi Sharma' image='vidhi' insta='' linkedin='vidhi-sharma-009245331' rno='b24mt1045'/>
+        <Card name='Vidhi Sharma' image='vidhi' insta='vid.hehe' linkedin='vidhi-sharma-009245331' rno='b24mt1045'/>
     </div>
 
 
