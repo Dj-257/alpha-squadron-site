@@ -5,6 +5,11 @@ const LingoBoard = () => {
 
   const lingoTerms = [
     { 
+      term: "Tagline", 
+      meaning: "Mess with Alphas, die like Betas", 
+      color: "bg-slate-900 text-slate-300 hover:bg-slate-800" 
+    },
+    { 
       term: "Mehfil", 
       meaning: "Meet", 
       color: "bg-slate-800 text-slate-200 hover:bg-slate-700" 

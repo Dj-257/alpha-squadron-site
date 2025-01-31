@@ -47,9 +47,6 @@ const ParticlesHero = function() {
         <h1 className="text-5xl drop-shadow-lg tagline">
           ALPHA MANTRA
         </h1>
-        <h2 className="text-2xl drop-shadow-lg tagline-sub mt-2 mb-5">
-          MESS WITH ALPHAS, DIE LIKE BETAS
-        </h2>
       </div>
     </div>
   );

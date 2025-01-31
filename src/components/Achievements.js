@@ -62,7 +62,7 @@ export default function Achievements() {
             </div>
             <div className='font-open_sans text-justify'>
 
-                    Homecoming is the official name for Convocation of Batch of 2024. The event was conducted on a grand scale with Vice President of India as the Chief Guest. A new initiative, 'Roommate Rewind' was introduced where the seniors were given an opportunity to share their experiences and memories with their juniors as they stayed in their rooms during the event. Our team handled all verticals smoothly and efficiently, and in the it campus felt like a festival was ongoing. Everything ranging from formal to informal eevnts was a grand success and was appreciated by all the attendees.
+                    Homecoming is the official name for Convocation of Batch of 2024. The event was conducted on a grand scale with Vice President of India as the Chief Guest. A new initiative, 'Roommate Rewind' was introduced where the seniors were given an opportunity to share their experiences and memories with their juniors as they stayed in their rooms during the event. Our team handled all verticals smoothly and efficiently, and in the it campus felt like a festival was ongoing. Everything ranging from formal to informal events was a grand success and was appreciated by all the attendees.
             </div>
             <div>
                 <button className='instagram p-2 rounded-lg flex justify-center items-center font-open_sans font-bold m-2' onClick={()=>window.open('https://www.instagram.com/p/DBOdYj9SFfs/}','_blank')}>
