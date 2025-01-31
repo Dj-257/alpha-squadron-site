@@ -11,7 +11,7 @@
 .tagline-sub {
   font-family: monospace;
   letter-spacing: 7px!important;
-  background: hsl(0, 0%, 40%);
+  background: #FAF4C5;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

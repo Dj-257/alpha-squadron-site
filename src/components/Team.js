@@ -29,6 +29,8 @@ export default function Team() {
         <Card name='Heril Mistry' image='heril' insta='hmistry_11' linkedin='heril-mistry-870205313' rno='b24me1048'/>
         <Card name='Aakarsh Sinha' image='aakarsh' insta='aakarazzi' linkedin='aakarsh-sinha-5993902b4' rno='b24ch1001'/>
         <Card name='Jimeet Shastri' image='jimeet' insta='jimeet2440' linkedin='jimeet-shastri-034761327' rno='b24cs1034'/>
+        <Card name='Brijesh Thakkar' image='brijesh' insta='brijesh_thakkar__' linkedin='brijesh-thakkar-22912b290' rno='b24me1018'/>
+        <Card name='Nirni Naidu' image='nirni' insta='proff__coder___' linkedin='nirni-naidu-696ba2202' rno='b24ee1075'/>
     </div>
 
 
