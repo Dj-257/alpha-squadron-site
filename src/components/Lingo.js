@@ -48,11 +48,6 @@ const LingoBoard = () => {
       term: "Deja Poo", 
       meaning: "Heard this crap before", 
       color: "bg-indigo-900 text-indigo-300 hover:bg-indigo-800" 
-    },
-    { 
-      term: "Khusvendra", 
-      meaning: "Chutiya", 
-      color: "bg-violet-900 text-violet-300 hover:bg-violet-800" 
     }
   ];
 
